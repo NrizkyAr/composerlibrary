@@ -1,0 +1,19 @@
+{
+  "name": "membuatlibray/belajarphpcomposer",
+  "description": "librarycomposer",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Membuatlibray\\Belajarphpcomposer\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "rizky",
+      "email": "nandiar@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
+}
