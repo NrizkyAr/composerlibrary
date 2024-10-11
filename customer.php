@@ -5,7 +5,7 @@ class customer {
     public function __construct(private string $name)
     {
     }
-    public function named (string $name) :string {
+    public function named (string $name = "kargo") :string {
         return "hello $name, my is called $this->name";
     }
 }
